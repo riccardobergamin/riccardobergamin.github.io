@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist · PhD in Theoretical Physics 
+subtitle: Data Scientist · PhD in Theoretical Physics
 
 profile:
   align: right
@@ -40,10 +40,10 @@ I also contributed to the development of computational genomics tools and pipeli
 
 I am currently preparing several preprints for submission to peer-reviewed journals, highlighting both methodological rigor and translational significance. I am eager to leverage my interdisciplinary expertise in biotech, health-tech, or research-driven companies, thriving in collaborative environments that prioritize curiosity, innovation, and impactful research.
 
-**Interests:**  
+**Interests:**
+
 - Machine learning
 - Translational modeling
 - Bayesian inference and interpretable AI
 - Clinical applications and healthcare
 - Genomic and biological data analysis
-

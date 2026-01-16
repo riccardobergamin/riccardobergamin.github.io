@@ -8,7 +8,6 @@ category: work
 related_publications: false
 ---
 
-We applied data analysis, mathematical modeling, and Bayesian inference to longitudinal whole-genome sequencing (WGS) AML samples to determine when HLA loss relapses occur after allogeneic hematopoietic cell transplantation. Timing models revealed that most therapy-resistant clones arise post-transplant, and mutational signatures linked the antiviral drug Ganciclovir to these immune-escape events. This approach demonstrates how rigorous computational methods can translate genomic data into actionable clinical insights, identifying key factors driving post-transplant relapse.  
+We applied data analysis, mathematical modeling, and Bayesian inference to longitudinal whole-genome sequencing (WGS) AML samples to determine when HLA loss relapses occur after allogeneic hematopoietic cell transplantation. Timing models revealed that most therapy-resistant clones arise post-transplant, and mutational signatures linked the antiviral drug Ganciclovir to these immune-escape events. This approach demonstrates how rigorous computational methods can translate genomic data into actionable clinical insights, identifying key factors driving post-transplant relapse.
 
-
- [ASH abstract](https://www.sciencedirect.com/science/article/abs/pii/S0006497123049662)
+[ASH abstract](https://www.sciencedirect.com/science/article/abs/pii/S0006497123049662)

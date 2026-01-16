@@ -70,16 +70,16 @@
       "courses": []
     }
   ],
-"awards": [
-  {
-    "title": "Erasmus Scholarship for Academic Exchange",
-    "date": "2014-01-01",
-    "awarder": "University of Padova",
-    "summary": "Awarded a competitive mobility grant for a one-year exchange at Imperial College London.",
-    "url": ""
-  }
-],
-"skills": [
+  "awards": [
+    {
+      "title": "Erasmus Scholarship for Academic Exchange",
+      "date": "2014-01-01",
+      "awarder": "University of Padova",
+      "summary": "Awarded a competitive mobility grant for a one-year exchange at Imperial College London.",
+      "url": ""
+    }
+  ],
+  "skills": [
     {
       "name": "Data Science",
       "level": "",
@@ -95,11 +95,7 @@
     {
       "name": "Programming & Computational Tools",
       "level": "",
-      "keywords": [
-        "Python (NumPy, pandas, scikit-learn, PyTorch)",
-        "R (tidyverse, Bioconductor)",
-        "Bash / Shell scripting"
-      ]
+      "keywords": ["Python (NumPy, pandas, scikit-learn, PyTorch)", "R (tidyverse, Bioconductor)", "Bash / Shell scripting"]
     },
     {
       "name": "Analytical / Problem-Solving Skills",
@@ -114,20 +110,12 @@
     {
       "name": "Computational Genomics",
       "level": "",
-      "keywords": [
-        "Bulk genomics (WGS, WES)",
-        "Single-cell genomics (scRNA-seq, scATAC-seq)",
-        "Spatial transcriptomics"
-      ]
+      "keywords": ["Bulk genomics (WGS, WES)", "Single-cell genomics (scRNA-seq, scATAC-seq)", "Spatial transcriptomics"]
     },
     {
       "name": "Other / Soft Skills",
       "level": "",
-      "keywords": [
-        "Mentoring and supervision of MSc and PhD students",
-        "Team working",
-        "Scientific communication (papers, presentations, teaching)"
-      ]
+      "keywords": ["Mentoring and supervision of MSc and PhD students", "Team working", "Scientific communication (papers, presentations, teaching)"]
     }
   ],
   "languages": [

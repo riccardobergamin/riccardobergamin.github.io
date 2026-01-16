@@ -10,7 +10,6 @@ toc:
   sidebar: left
 ---
 
-
 ## Riccardo Bergamin
 
 Padova, Italy  
@@ -27,67 +26,77 @@ Data scientist with a background in physics and computational genomics, with han
 ## Skills
 
 ### Data Science
-- Statistics, Bayesian statistics, probability  
-- Probabilistic programming (Pyro, Stan)  
-- Generative models  
-- High-dimensional data analysis  
-- Data visualization  
-- Stochastic processes  
+
+- Statistics, Bayesian statistics, probability
+- Probabilistic programming (Pyro, Stan)
+- Generative models
+- High-dimensional data analysis
+- Data visualization
+- Stochastic processes
 
 ### Programming
-- Python (NumPy, pandas, scikit-learn, PyTorch)  
-- R (tidyverse, Bioconductor)  
-- Bash / Shell scripting  
+
+- Python (NumPy, pandas, scikit-learn, PyTorch)
+- R (tidyverse, Bioconductor)
+- Bash / Shell scripting
 
 ### Analytical Skills
-- Analytical problem solving  
-- Quantitative reasoning and abstraction  
-- Hypothesis-driven data analysis  
-- Mathematical modelling  
+
+- Analytical problem solving
+- Quantitative reasoning and abstraction
+- Hypothesis-driven data analysis
+- Mathematical modelling
 
 ### Computational Genomics
-- Bulk genomics (WGS, WES)  
-- Single-cell genomics (scRNA-seq, scATAC-seq)  
-- Spatial transcriptomics  
+
+- Bulk genomics (WGS, WES)
+- Single-cell genomics (scRNA-seq, scATAC-seq)
+- Spatial transcriptomics
 
 ### Other / Soft Skills
-- Mentoring and supervision  
-- Team working  
-- Scientific communication  
+
+- Mentoring and supervision
+- Team working
+- Scientific communication
 
 ---
 
 ## Experience
 
-### Postdoctoral Researcher  
+### Postdoctoral Researcher
+
 University of Trieste, Trieste, Italy  
 December 2020 – December 2025
 
-- Developed mathematical and statistical inference frameworks for timing genomic events relative to therapy, enhancing analysis of bulk WGS data  
-- Applied timing models to translational research questions, linking evolutionary dynamics with clinical decision-making and protocol refinement  
-- Designed probabilistic models to study plastic prognostic markers using bulk WGS and spatial transcriptomics  
-- Contributed to the development of computational genomics tools and reproducible analysis pipelines  
-- Mentored Master’s and PhD students and taught in computational genomics classes  
+- Developed mathematical and statistical inference frameworks for timing genomic events relative to therapy, enhancing analysis of bulk WGS data
+- Applied timing models to translational research questions, linking evolutionary dynamics with clinical decision-making and protocol refinement
+- Designed probabilistic models to study plastic prognostic markers using bulk WGS and spatial transcriptomics
+- Contributed to the development of computational genomics tools and reproducible analysis pipelines
+- Mentored Master’s and PhD students and taught in computational genomics classes
 
 ---
 
 ## Education
 
-### PhD in Theoretical Particle Physics  
+### PhD in Theoretical Particle Physics
+
 International School of Advanced Studies (SISSA), Trieste, Italy  
 October 2015 – October 2019  
 Graduated with Laude
 
-### MSc in Physics  
+### MSc in Physics
+
 Università di Padova, Padova, Italy  
 October 2013 – October 2015  
 Grade: 110L
 
-### Visiting MSc Student in Theoretical Physics  
+### Visiting MSc Student in Theoretical Physics
+
 Imperial College London, London, UK  
 September 2014 – September 2015
 
-### BSc in Physics  
+### BSc in Physics
+
 Università di Padova, Padova, Italy  
 October 2010 – October 2013  
 Grade: 110
@@ -97,7 +106,7 @@ Grade: 110
 ## Languages
 
 Italian  
-First language  
+First language
 
 English  
 C2 (Proficient)

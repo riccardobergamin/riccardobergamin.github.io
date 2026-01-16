@@ -32,4 +32,3 @@ Projects developed within the Caravagna Lab to which i contributed, or supervise
   {% include repository/repo.liquid repository="caravagnalab/biPOD" %}
   {% include repository/repo.liquid repository="caravagnalab/ProCESS" %}
 </div>
-

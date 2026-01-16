@@ -7,9 +7,9 @@ first_name: Riccardo
 middle_name: ""
 last_name: Bergamin
 contact_note: >
-   Feel free to reach me via email or LinkedIn.
+  Feel free to reach me via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-   Data Scientist | PhD in Theoretical Physics | Machine learning & probabilistic modeling
+  Data Scientist | PhD in Theoretical Physics | Machine learning & probabilistic modeling
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -89,11 +89,10 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
-
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: "riccardobergamin/riccardobergamin.github.io" 
+  repo: "riccardobergamin/riccardobergamin.github.io"
   repo_id: "" # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
@@ -127,13 +126,13 @@ collections:
   books:
     output: false
   news:
-    output: false      # disables blog/news pages
+    output: false # disables blog/news pages
   projects:
-    output: true       # keep your projects
+    output: true # keep your projects
   people:
-    output: false   
+    output: false
   posts:
-    output: false 
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -221,7 +220,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
