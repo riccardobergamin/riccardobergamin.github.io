@@ -20,8 +20,7 @@ mathematical modeling, Bayesian inference, and translational genomics.
 
 ## Collaborative and lab projects
 
-Projects developed within the Caravagna Lab to which i contributed
-substantially, or supervised students, or supported methodologically.
+Projects developed within the Caravagna Lab to which i contributed, or supervised students, or supported methodologically.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% include repository/repo.liquid repository="caravagnalab/CNAqc" %}
