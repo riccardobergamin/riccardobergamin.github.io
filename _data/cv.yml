@@ -2,96 +2,87 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Riccardo Bergamin
+    - name: Location
+      value: 35016, Padova, Italy
+    - name: Email
+      value: ric.b.91@gmail.com
+    - name: Summary
+      value: Data-driven researcher with strong analytical and critical-thinking skills, and a proven ability to tackle complex problems through quantitative reasoning. Experienced in collaborative, multidisciplinary environments, contributing innovative ideas and rigorous analysis to challenging research questions. Skilled in data analysis, scientific writing, and communicating results. Motivated to contribute to impactful research and advance scientific understanding.
 
-- title: Education
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Data Science
+      items:
+        - Statistics, Bayesian statistics, probability
+        - Probabilistic programming (Pyro, Stan)
+        - Generative models
+        - High-dimensional data analysis
+        - Data visualization (matplotlib, seaborn, ggplot2)
+        - Stochastic processes
+    - title: Programming & Computational Tools
+      items:
+        - Python (NumPy, pandas, scikit-learn, PyTorch)
+        - R (tidyverse, Bioconductor)
+        - Bash / Shell scripting
+    - title: Analytical / Problem-Solving Skills
+      items:
+        - Analytical problem solving
+        - Quantitative reasoning and abstraction
+        - Hypothesis-driven data analysis
+        - Mathematical modelling
+    - title: Computational Genomics
+      items:
+        - Bulk genomics (WGS, WES)
+        - Single-cell genomics (scRNA-seq, scATAC-seq)
+        - Spatial transcriptomics
+    - title: Other / Soft Skills
+      items:
+        - Mentoring and supervision of MSc and PhD students
+        - Team working
+        - Scientific communication (papers, presentations, teaching)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: University of Trieste, Trieste, TS
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Developed mathematical and statistical inference frameworks for timing genomic events relative to therapy, enhancing analysis of bulk WGS data.
+        - Applied timing models to translational questions, linking evolutionary dynamics with clinical decision-making and improving protocol refinement.
+        - Designed probabilistic models to study plastic prognostic markers, leveraging bulk WGS and spatial transcriptomics.
+        - Contributed to computational genomics tools and pipelines for reproducible analysis and benchmarking.
+        - Mentored Master's and PhD students, and taught computational genomics classes.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PhD in Theoretical Particle Physics
+      institution: International School for Advanced Studies (SISSA), Trieste
+      year: 2015 - 2019
+      description:
+        - Graduated with Laude
+    - title: Laurea Magistrale in Physics
+      institution: Università di Padova, Padova
+      year: 2013 - 2015
+      description:
+        - Grade: 110L
+    - title: Visiting MSc Student in Theoretical Physics
+      institution: Imperial College London, London
+      year: 2014 - 2015
+    - title: Laurea Triennale in Physics
+      institution: Università di Padova, Padova
+      year: 2010 - 2013
+      description:
+        - Grade: 110
 
-- title: Honors and Awards
-  type: time_table
+- title: Languages
+  type: map
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - name: Italian
+      value: First Language
+    - name: English
+      value: C2 - Proficient
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

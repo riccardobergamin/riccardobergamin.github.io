@@ -2,33 +2,48 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Data Scientist · PhD in Theoretical Physics 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: ric.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Email: <a href="mailto:ric.b.91@gmail.com">ric.b.91@gmail.com</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
+social_links:
+  - network: LinkedIn
+    url: https://www.linkedin.com/in/riccardo-bergamin-5bb456371
+  - network: Google Scholar
+    url: https://scholar.google.com/citations?user=7hdwFzIAAAAJ&hl=it&oi=ao
+  - network: Twitter
+    url: https://x.com/bergamin2500
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I transitioned from theoretical physics after my PhD to translational, data-driven research, moved by the desire of applying mathematics to real-world problems. I have a strong passion for mathematical modeling, probabilistic inference, and extracting insight from complex data, particularly using Bayesian statistics, stochastic processes, and interpretable machine learning frameworks. I enjoy translating abstract quantitative models into actionable tools and insights.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A central aspect of my postdoctoral work has been bridging the gap between complex quantitative models and clinically meaningful interpretations, supporting hypothesis generation and decision-making. I applied my skills to biomedical and biological problems, working with bulk whole-genome sequencing, single-cell and spatial transcriptomics, and clinical data, turning high-dimensional datasets into structured, actionable insight.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also contributed to the development of computational genomics tools and pipelines to streamline the analysis of complex datasets, and mentored Master’s and PhD students, guiding them in quantitative methods, model development, and reproducible research practices.
+
+I am currently preparing several preprints for submission to peer-reviewed journals, highlighting both methodological rigor and translational significance. I am eager to leverage my interdisciplinary expertise in biotech, health-tech, or research-driven companies, thriving in collaborative environments that prioritize curiosity, innovation, and impactful research.
+
+**Interests:**  
+- Machine learning
+- Translational modeling
+- Bayesian inference and interpretable AI
+- Clinical applications and healthcare
+- Genomic and biological data analysis
+
