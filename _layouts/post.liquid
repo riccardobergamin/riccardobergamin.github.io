@@ -56,28 +56,13 @@ layout: default
   </header>
 
   {%- comment -%}
+    <!-- TOC removed for GitHub Pages compatibility -->
+    <!-- Bibliography removed for GitHub Pages compatibility -->
     <article class="post-content">
-      {% if page.toc and page.toc.beginning %}
-        <div id="table-of-contents">
-          {% toc %}
-        </div>
-        <hr>
-      {% endif %}
       <div id="markdown-content">
         {{ content }}
       </div>
     </article>
-
-    {% if page.citation %}
-      {% include citation.liquid %}
-    {% endif %}
-
-    {% if page.related_publications %}
-      <h2>References</h2>
-      <div class="publications">
-        {% bibliography --group_by none --cited_in_order %}
-      </div>
-    {% endif %}
   {%- endcomment -%}
 
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
