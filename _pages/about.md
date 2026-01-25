@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist · PhD in Theoretical Physics
+subtitle: Data Scientist · PhD in Theoretical Physics · Machine Learning & Probabilistic Modeling for Healthcare
 
 profile:
   align: right
