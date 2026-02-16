@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Riccardo Bergamin",
-    "label": "Quantitative Researcher",
+    "label": "Data Scientist",
     "image": "",
     "email": "ric.b.91@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Theoretical physicist with hands-on experience in data science applied to translational cancer research. Interested in tackling complex problems through quantitative reasoning, and experienced in collaborative, multidisciplinary environments, contributing thoughtful ideas and careful analysis to research questions. Skilled in mathematical modeling and Bayesian inference, and motivated by translating rigorous quantitative models into real-world impact.",
+    "summary": "Data scientist with a background in physics and computational genomics, with hands-on experience in translational cancer research. Interested in tackling complex problems through quantitative reasoning, and experienced in collaborative, multidisciplinary environments, contributing thoughtful ideas and careful analysis to research questions. Skilled in mathematical modeling and Bayesian inference, and motivated by translating rigorous quantitative models into real-world impact in healthcare and healthtech",
     "location": {
       "address": "",
       "postalCode": "35016",
@@ -80,31 +80,33 @@
     }
   ],
   "skills": [
-  {
-    "name": "Analytical / Problem-Solving Skills",
-    "level": "",
-    "keywords": [
-     "Mathematical modelling",
-     "Analytical problem solving",
-     "Quantitative reasoning and abstraction",
-     "Hypothesis-driven data analysis"
-    ]
-  },
     {
       "name": "Data Science",
       "level": "",
       "keywords": [
-        "Statistics, Bayesian statistics, and probability",
-        "Stochastic processes",
+        "Statistics, Bayesian statistics, probability",
         "Probabilistic programming (Pyro, Stan)",
+        "Generative models",
         "High-dimensional data analysis",
-        "Data visualization (matplotlib, seaborn, ggplot2)"
+        "Data visualization (matplotlib, seaborn, ggplot2)",
+        "Stochastic processes"
       ]
     },
     {
       "name": "Programming & Computational Tools",
       "level": "",
       "keywords": ["Python (NumPy, pandas, scikit-learn, PyTorch)", "R (tidyverse, Bioconductor)", "Bash / Shell scripting"]
+    },
+    {
+      "name": "Analytical / Problem-Solving Skills",
+      "level": "",
+      "keywords": [
+       "Mathematical modelling",
+       "Stochastic calculus",
+       "Analytical problem solving",
+       "Quantitative reasoning and abstraction",
+       "Hypothesis-driven data analysis"  
+      ]
     },
     {
       "name": "Computational Genomics",
