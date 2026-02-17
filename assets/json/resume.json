@@ -6,7 +6,7 @@
     "email": "ric.b.91@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Data scientist with a background in physics and computational genomics, with hands-on experience in translational cancer research. Interested in tackling complex problems through quantitative reasoning, and experienced in collaborative, multidisciplinary environments, contributing thoughtful ideas and careful analysis to research questions. Skilled in mathematical modeling and Bayesian inference, and motivated by translating rigorous quantitative models into real-world impact in healthcare and healthtech",
+    "summary": "Data Scientist with a background in physics and computational research, with hands-on experience in tackling complex problems through quantitative reasoning. Experienced in collaborative, multidisciplinary environments, contributing thoughtful ideas, analysis and actionable insights. Skilled in mathematical modeling and Bayesian inference, and motivated by translating rigorous quantitative models into real-world impact.",
     "location": {
       "address": "",
       "postalCode": "35016",
@@ -80,32 +80,32 @@
     }
   ],
   "skills": [
-    {
+  {
       "name": "Data Science",
       "level": "",
       "keywords": [
-        "Statistics, Bayesian statistics, probability",
+        "Statistics, Bayesian statistics, and probability",
+        "Stochastic processes",
         "Probabilistic programming (Pyro, Stan)",
-        "Generative models",
         "High-dimensional data analysis",
-        "Data visualization (matplotlib, seaborn, ggplot2)",
-        "Stochastic processes"
+        "Data visualization (matplotlib, seaborn, ggplot2)"
       ]
-    },
+    },  
+    {
+        "name": "Analytical / Problem-Solving Skills",
+        "level": "",
+        "keywords": [
+         "Mathematical modelling",
+         "Stochastic calculus",
+         "Analytical problem solving",
+         "Quantitative reasoning and abstraction",
+         "Hypothesis-driven data analysis"
+        ]
+      },
     {
       "name": "Programming & Computational Tools",
       "level": "",
       "keywords": ["Python (NumPy, pandas, scikit-learn, PyTorch)", "R (tidyverse, Bioconductor)", "Bash / Shell scripting"]
-    },
-    {
-      "name": "Analytical / Problem-Solving Skills",
-      "level": "",
-      "keywords": [
-        "Analytical problem solving",
-        "Quantitative reasoning and abstraction",
-        "Hypothesis-driven data analysis",
-        "Mathematical modelling"
-      ]
     },
     {
       "name": "Computational Genomics",
@@ -115,7 +115,7 @@
     {
       "name": "Other / Soft Skills",
       "level": "",
-      "keywords": ["Mentoring and supervision of MSc and PhD students", "Team working", "Scientific communication (papers, presentations, teaching)"]
+      "keywords": ["Mentoring and supervision", "Team working", "Scientific communication (papers, presentations, teaching)"]
     }
   ],
   "languages": [

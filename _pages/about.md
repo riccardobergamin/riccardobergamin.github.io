@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist · PhD in Theoretical Physics · Machine Learning for Healthcare
+subtitle: Data Scientist · PhD in Theoretical Physics · Probabilistic Modeling & Applied Analytics
 
 profile:
   align: right
@@ -38,11 +38,14 @@ A central aspect of my postdoctoral work has been bridging the gap between compl
 
 I also contributed to the development of computational genomics tools and pipelines to streamline the analysis of complex datasets, and mentored Master’s and PhD students, guiding them in quantitative methods, model development, and reproducible research practices.
 
-I am currently preparing several preprints for submission to peer-reviewed journals, highlighting both methodological rigor and translational significance. I am eager to leverage my interdisciplinary expertise in research-driven companies, thriving in collaborative environments that prioritize curiosity, innovation, and impactful research.
+I am currently preparing several preprints for submission to peer-reviewed journals, highlighting both methodological rigor and translational significance. I am eager to leverage my interdisciplinary expertise in research-driven companies, thriving in collaborative environments that prioritize curiosity, innovation, and impactful discovery.
 
 **Interests**
 
-- Applied machine learning
 - Data-driven modeling and decision-making
-- Bayesian inference and interpretable AI
 - Mathematical modeling and probabilistic reasoning
+- Bayesian inference and interpretable AI
+- Stochastic processes and uncertainty quantification
+- Applied machine learning
+
+
