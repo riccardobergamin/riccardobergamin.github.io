@@ -233,19 +233,45 @@
   </header>
 
   <article>
-    <p>We developed TOSCA (Timing of Somatic Events in Cancer), a Bayesian framework that leverages longitudinal whole-genome sequencing data to determine whether drug resistance arises from pre-existing clones or is acquired after treatment.</p>
+    <h2 id="overview">Overview</h2>
 
-<p>Key features and novelty:</p>
+<p>Cancer evolution is shaped by genetic alterations that accumulate over years of tumour growth and treatment. While genome sequencing can identify the mutations present in a tumour, it generally cannot determine when those alterations arose, making it difficult to distinguish pre-existing resistance from adaptations acquired during therapy.</p>
 
-<ul>
-  <li>Integrates treatment timing, duration, and tumour molecular features into a point process model augmented with population genetics.</li>
-  <li>Estimates the origin time of drug-resistant clones from pre-treatment and relapse samples.</li>
-  <li>Handles different types of genetic events, including copy-number alterations, whole-genome doubling, and mutations affecting mutation rates.</li>
-  <li>Models stochastic dormancy to capture the impact of chemotherapy on mutation accumulation.</li>
-  <li>First approach to time evolution in a single patient, accounting for treatment-associated evolution and avoiding confounding from tumour heterogeneity.</li>
-</ul>
+<p>TOSCA (Timing of Somatic Events in Cancer) is a Bayesian framework that reconstructs the timing of clonal expansions in individual patients using longitudinal whole-genome sequencing data.</p>
+
+<h2 id="approach">Approach</h2>
+
+<p>TOSCA combines longitudinal genomic data with treatment history and multiple molecular clocks derived from somatic mutations to probabilistically map genomic events onto the clinical timeline of a patient.</p>
+
+<p>The framework models cancer evolution as a stochastic process and reconstructs the temporal order of different somatic events, including copy-number alterations, whole-genome doubling, and point mutations. It also accounts for tumour dormancy and treatment-associated evolutionary dynamics.</p>
+
+<h2 id="key-findings">Key findings</h2>
+
+<p>TOSCA was validated by recovering established developmental dynamics in childhood neuroblastoma, including the early acquisition of aneuploidy during embryogenesis followed by the accumulation of segmental chromosomal alterations.</p>
+
+<p>We further applied the framework to haematological and solid malignancies exposed to chemotherapy, immunotherapy, and stem-cell transplantation. Across these settings, TOSCA reconstructed the timing of clonal expansions associated with copy-number and point mutations.</p>
+
+<p>Importantly, TOSCA distinguished resistant clones that predated treatment from those that emerged afterwards, providing a way to determine the temporal relationship between tumour evolution and therapy.</p>
+
+<h2 id="impact">Impact</h2>
+
+<p>By linking evolutionary histories to treatment records, TOSCA provides a framework for studying cancer evolution and the origin of therapeutic resistance at the level of individual patients.</p>
+
+<p>The framework enables genomic alterations to be placed within their temporal and clinical context, providing a quantitative approach to understanding how treatment shapes cancer evolution.</p>
+
+<h2 id="my-contribution">My contribution</h2>
+
+<p><strong>Joint first author</strong></p>
+
+<p>Framework development · Bayesian modelling · Mathematical modelling · Computational cancer evolution</p>
+
+<h2 id="code--repository">Code &amp; repository</h2>
 
 <p>The code and examples are available on <a href="https://github.com/caravagnalab/TOSCA" rel="external nofollow noopener" target="_blank">GitHub</a>.</p>
+
+<h2 id="publication-status">Publication status</h2>
+
+<p>Manuscript under review at <em>Nature Genetics</em>.</p>
 
   </article>
 
