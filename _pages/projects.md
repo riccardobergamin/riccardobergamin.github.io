@@ -5,7 +5,7 @@ permalink: /projects/
 description: A (non comprehensive) list of projects in which i was involved during my postdoctoral experience.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [cancer-evolution]
 horizontal: false
 ---
 
