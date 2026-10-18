@@ -65,11 +65,21 @@ ninja.data = [{
           description: "Timing of HLA loss relapses in AML after allo-HCT and the role of ganciclovir",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AML.html";
-            },},{id: "projects-population-epigenetics-in-cancer-evolution",
-          title: 'Population Epigenetics in Cancer Evolution',
-          description: "Integrating population genetics and epigenetic modeling to study tumor evolution",
+            },},{id: "projects-genomic-characterisation-of-patient-derived-colorectal-cancer-organoids",
+          title: 'Genomic Characterisation of Patient-Derived Colorectal Cancer Organoids',
+          description: "Genomic and transcriptomic characterisation of a patient-derived colorectal cancer organoid biobank",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ORGANOIDS.html";
+            },},{id: "projects-population-epigenetics-pepi-in-cancer-evolution",
+          title: 'Population Epigenetics (PEPI) in Cancer Evolution',
+          description: "Integrating population epigenetics and phenotypic plasticity to study tumour evolution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PEPI.html";
+            },},{id: "projects-scout-synthetic-cancer-genomes-for-evolutionary-benchmarking",
+          title: 'SCOUT: Synthetic Cancer Genomes for Evolutionary Benchmarking',
+          description: "A synthetic whole-genome sequencing resource for benchmarking tumour genomic analysis and evolutionary inference",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PROCESS.html";
             },},{id: "projects-bayesian-timing-of-somatic-events-in-cancer-tosca",
           title: 'Bayesian Timing of Somatic Events in Cancer (TOSCA)',
           description: "A framework to infer the timing of drug-resistant clones in individual cancer patients",
