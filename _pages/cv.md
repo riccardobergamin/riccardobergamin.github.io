@@ -19,33 +19,39 @@ ric.b.91@gmail.com
 
 ## Summary
 
-Data scientist with a background in physics and computational genomics, with hands-on experience in translational cancer research. Interested in tackling complex problems through quantitative reasoning, and experienced in collaborative, multidisciplinary environments, contributing thoughtful ideas and careful analysis to research questions. Skilled in mathematical modeling and Bayesian inference, and motivated by translating rigorous quantitative models into real-world impact
+Data Scientist with a PhD in Theoretical Physics and experience developing mathematical, probabilistic, and statistical models for complex data-driven problems. My research background combines Bayesian inference, stochastic modelling, machine learning, and scientific software development, with applications in computational genomics and translational cancer research.
+
+More recently, I have developed an interest in football analytics, applying quantitative methods to event and tracking data. Interested in research-driven opportunities where mathematical modelling and data science can contribute to understanding complex systems and solving practical problems.
 
 ---
 
 ## Skills
 
+### Mathematical & Statistical Modelling
+
+- Bayesian inference and probabilistic modelling
+- Stochastic processes
+- Statistical learning and machine learning
+- Probabilistic programming (Pyro, Stan)
+- Mathematical modelling and numerical methods
+
 ### Data Science
 
-- Statistics, Bayesian statistics, probability
-- Probabilistic programming (Pyro, Stan)
-- Generative models
 - High-dimensional data analysis
-- Data visualization
-- Stochastic processes
+- Model validation and benchmarking
+- Data visualisation (matplotlib, seaborn, ggplot2)
+- Reproducible computational workflows
 
-### Programming
+### Programming & Computational Tools
 
 - Python (NumPy, pandas, scikit-learn, PyTorch)
 - R (tidyverse, Bioconductor)
 - Bash / Shell scripting
 
-### Analytical Skills
+### Football Analytics
 
-- Analytical problem solving
-- Quantitative reasoning and abstraction
-- Hypothesis-driven data analysis
-- Mathematical modelling
+- Event and tracking data analysis
+- Pitch control and Expected Possession Value (EPV) models
 
 ### Computational Genomics
 
@@ -53,11 +59,11 @@ Data scientist with a background in physics and computational genomics, with han
 - Single-cell genomics (scRNA-seq, scATAC-seq)
 - Spatial transcriptomics
 
-### Other / Soft Skills
+### Research & Collaboration
 
-- Mentoring and supervision
-- Team working
-- Scientific communication
+- Scientific software development
+- Mentoring and supervision of MSc and PhD students
+- Scientific communication (publications, presentations, teaching)
 
 ---
 
@@ -68,11 +74,11 @@ Data scientist with a background in physics and computational genomics, with han
 University of Trieste, Trieste, Italy  
 December 2020 – December 2025
 
-- Developed mathematical and statistical inference frameworks for timing genomic events relative to therapy, enhancing analysis of bulk WGS data
-- Applied timing models to translational research questions, linking evolutionary dynamics with clinical decision-making and protocol refinement
-- Designed probabilistic models to study plastic prognostic markers using bulk WGS and spatial transcriptomics
-- Contributed to the development of computational genomics tools and reproducible analysis pipelines
-- Mentored Master’s and PhD students and taught in computational genomics classes
+- Developed Bayesian and stochastic modelling frameworks to reconstruct cancer evolutionary histories and infer the timing of genomic events using longitudinal whole-genome sequencing data.
+- Applied evolutionary timing models to translational research questions, investigating the relationship between clonal dynamics, treatment history, and therapeutic resistance.
+- Developed probabilistic models to investigate phenotypic heterogeneity and the evolutionary dynamics of prognostic markers using genomic and spatial transcriptomic data.
+- Contributed to the development of computational genomics tools, reproducible analysis pipelines, and benchmarking workflows.
+- Mentored Master's and PhD students and taught computational genomics classes.
 
 ---
 
@@ -80,7 +86,7 @@ December 2020 – December 2025
 
 ### PhD in Theoretical Particle Physics
 
-International School of Advanced Studies (SISSA), Trieste, Italy  
+International School for Advanced Studies (SISSA), Trieste, Italy  
 October 2015 – October 2019  
 Graduated with Laude
 

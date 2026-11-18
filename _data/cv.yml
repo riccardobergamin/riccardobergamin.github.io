@@ -8,72 +8,94 @@
     - name: Email
       value: ric.b.91@gmail.com
     - name: Summary
-      value: Data-driven researcher with strong analytical and critical-thinking skills, and a proven ability to tackle complex problems through quantitative reasoning. Experienced in collaborative, multidisciplinary environments, contributing innovative ideas and rigorous analysis to challenging research questions. Skilled in data analysis, scientific writing, and communicating results. Motivated to contribute to impactful research and advance scientific understanding.
+      value: >-
+        Data Scientist with a PhD in Theoretical Physics and experience
+        developing mathematical, probabilistic, and statistical models
+        for complex data-driven problems. My research background combines
+        Bayesian inference, stochastic modelling, machine learning, and
+        scientific software development, with applications in computational
+        genomics and translational cancer research. More recently, I have
+        developed an interest in football analytics, applying quantitative
+        methods to event and tracking data. Interested in research-driven
+        opportunities where mathematical modelling and data science can
+        contribute to understanding complex systems and solving practical
+        problems.
 
 - title: Skills
   type: nested_list
   contents:
+    - title: Mathematical & Statistical Modelling
+      items:
+        - Bayesian inference and probabilistic modelling
+        - Stochastic processes
+        - Statistical learning and machine learning
+        - Probabilistic programming (Pyro, Stan)
+        - Mathematical modelling and numerical methods
+
     - title: Data Science
       items:
-        - Statistics, Bayesian statistics, probability
-        - Probabilistic programming (Pyro, Stan)
-        - Generative models
         - High-dimensional data analysis
-        - Data visualization (matplotlib, seaborn, ggplot2)
-        - Stochastic processes
+        - Model validation and benchmarking
+        - Data visualisation (matplotlib, seaborn, ggplot2)
+        - Reproducible computational workflows
+
     - title: Programming & Computational Tools
       items:
         - Python (NumPy, pandas, scikit-learn, PyTorch)
         - R (tidyverse, Bioconductor)
         - Bash / Shell scripting
-    - title: Analytical / Problem-Solving Skills
+
+    - title: Football Analytics
       items:
-        - Analytical problem solving
-        - Quantitative reasoning and abstraction
-        - Hypothesis-driven data analysis
-        - Mathematical modelling
+        - Event and tracking data analysis
+        - Pitch control and Expected Possession Value (EPV) models
+
     - title: Computational Genomics
       items:
         - Bulk genomics (WGS, WES)
         - Single-cell genomics (scRNA-seq, scATAC-seq)
         - Spatial transcriptomics
-    - title: Other / Soft Skills
+
+    - title: Research & Collaboration
       items:
+        - Scientific software development
         - Mentoring and supervision of MSc and PhD students
-        - Team working
-        - Scientific communication (papers, presentations, teaching)
+        - Scientific communication (publications, presentations, teaching)
 
 - title: Experience
   type: time_table
   contents:
     - title: Postdoctoral Researcher
-      institution: University of Trieste, Trieste, TS
+      institution: University of Trieste, Trieste, Italy
       year: 2020 - 2025
       description:
-        - Developed mathematical and statistical inference frameworks for timing genomic events relative to therapy, enhancing analysis of bulk WGS data.
-        - Applied timing models to translational questions, linking evolutionary dynamics with clinical decision-making and improving protocol refinement.
-        - Designed probabilistic models to study plastic prognostic markers, leveraging bulk WGS and spatial transcriptomics.
-        - Contributed to computational genomics tools and pipelines for reproducible analysis and benchmarking.
-        - Mentored Master's and PhD students, and taught computational genomics classes.
+        - Developed Bayesian and stochastic modelling frameworks to reconstruct cancer evolutionary histories and infer the timing of genomic events using longitudinal whole-genome sequencing data.
+        - Applied evolutionary timing models to translational research questions, investigating the relationship between clonal dynamics, treatment history, and therapeutic resistance.
+        - Developed probabilistic models to investigate phenotypic heterogeneity and the evolutionary dynamics of prognostic markers using genomic and spatial transcriptomic data.
+        - Contributed to the development of computational genomics tools, reproducible analysis pipelines, and benchmarking workflows.
+        - Mentored Master's and PhD students and taught computational genomics classes.
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Theoretical Particle Physics
-      institution: International School for Advanced Studies (SISSA), Trieste
+      institution: International School for Advanced Studies (SISSA), Trieste, Italy
       year: 2015 - 2019
       description:
         - Graduated with Laude
-    - title: Laurea Magistrale in Physics
-      institution: Università di Padova, Padova
+
+    - title: MSc in Physics
+      institution: Università di Padova, Padova, Italy
       year: 2013 - 2015
       description:
         - Grade: 110L
+
     - title: Visiting MSc Student in Theoretical Physics
-      institution: Imperial College London, London
+      institution: Imperial College London, London, UK
       year: 2014 - 2015
-    - title: Laurea Triennale in Physics
-      institution: Università di Padova, Padova
+
+    - title: BSc in Physics
+      institution: Università di Padova, Padova, Italy
       year: 2010 - 2013
       description:
         - Grade: 110
@@ -82,6 +104,6 @@
   type: map
   contents:
     - name: Italian
-      value: First Language
+      value: First language
     - name: English
       value: C2 - Proficient

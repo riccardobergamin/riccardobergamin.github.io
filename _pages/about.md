@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist · PhD in Theoretical Physics · Probabilistic Modeling & Applied Analytics
+subtitle: Data Scientist · PhD in Theoretical Physics · Mathematical & Probabilistic Modeling
 
 profile:
   align: right
@@ -32,20 +32,24 @@ latest_posts:
   limit: 3
 ---
 
-I transitioned from theoretical physics after my PhD to translational, data-driven research, moved by the desire of applying mathematics to real-world problems. I have a strong passion for mathematical modeling, probabilistic inference, and extracting insight from complex data, particularly using Bayesian statistics, stochastic processes, and interpretable machine learning frameworks. I enjoy translating abstract quantitative models into actionable tools and insights.
+I am a Data Scientist with a PhD in Theoretical Physics and a background in translational, data-driven research. My work focuses on developing mathematical and probabilistic models to understand complex systems, drawing on methods from physics, applied mathematics, and statistics. I am particularly interested in combining mechanistic modeling, statistical inference, and machine learning to extract meaningful insights from data.
 
-A central aspect of my postdoctoral work has been bridging the gap between complex quantitative models and clinically meaningful interpretations, supporting hypothesis generation and decision-making. I applied my skills to biomedical and biological problems, working with bulk whole-genome sequencing, single-cell and spatial transcriptomics, and clinical data, turning high-dimensional datasets into structured, actionable insight.
+After my PhD, I moved into biomedical research, driven by the desire to apply mathematics to real-world problems. During my postdoctoral work, I focused on cancer evolution and computational genomics, developing statistical and computational approaches to investigate biological processes using bulk whole-genome sequencing, single-cell and spatial transcriptomics, and clinical data.
 
-I also contributed to the development of computational genomics tools and pipelines to streamline the analysis of complex datasets, and mentored Master’s and PhD students, guiding them in quantitative methods, model development, and reproducible research practices.
+A central aspect of my research has been bridging methodological development with biological and clinical interpretation. My work combines Bayesian inference, stochastic modeling, and machine learning to characterize the dynamics of biological systems, support hypothesis generation, and translate complex datasets into scientifically and clinically meaningful insights.
 
-I am currently preparing several preprints for submission to peer-reviewed journals, highlighting both methodological rigor and translational significance. I am eager to leverage my interdisciplinary expertise in research-driven companies, thriving in collaborative environments that prioritize curiosity, innovation, and impactful discovery.
+Alongside my research, I have contributed to the development of scientific software and reproducible analytical pipelines, and mentored Master's and PhD students in quantitative methods, model development, and computational research practices.
+
+More recently, I have developed a strong interest in sports analytics, particularly football. My work in this area combines event and tracking data with physics-based modeling, probabilistic inference, and statistical learning to develop interpretable frameworks for understanding player interactions, decision-making, possession risk, and tactical behavior.
+
+I am particularly interested in opportunities to bring my quantitative background and research experience into sports analytics, while remaining open to other research-driven domains where mathematical modeling and data science can contribute to understanding complex systems and solving real-world problems. I value collaborative environments that combine scientific curiosity, methodological rigor, and practical innovation.
 
 **Interests**
 
-- Data-driven modeling and decision-making
-- Mathematical modeling and probabilistic reasoning
-- Bayesian inference and interpretable AI
-- Stochastic processes and uncertainty quantification
-- Applied machine learning
-
-
+- Mathematical modeling and applied mathematics
+- Bayesian inference and probabilistic reasoning
+- Stochastic processes and complex systems
+- Mechanistic modeling and statistical learning
+- Uncertainty quantification and decision-making
+- Computational biology
+- Football analytics
