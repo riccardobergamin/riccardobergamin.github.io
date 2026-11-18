@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A (non comprehensive) list of projects in which i was involved during my postdoctoral experience.",
+          description: "Selected projects in mathematical modeling, probabilistic inference, and applied data science across football analytics and computational genomics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Integrating population epigenetics and phenotypic plasticity to study tumour evolution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PEPI.html";
+            },},{id: "projects-possession-risk-estimate-from-spatio-temporal-state-press",
+          title: 'Possession Risk Estimate from Spatio-temporal State (PRESS)',
+          description: "A physics-informed framework for studying defensive pressure and possession vulnerability in football",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PRESS.html";
             },},{id: "projects-scout-synthetic-cancer-genomes-for-evolutionary-benchmarking",
           title: 'SCOUT: Synthetic Cancer Genomes for Evolutionary Benchmarking',
           description: "A synthetic whole-genome sequencing resource for benchmarking tumour genomic analysis and evolutionary inference",
