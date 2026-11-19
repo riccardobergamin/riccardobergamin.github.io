@@ -39,7 +39,7 @@ The framework estimates two complementary quantities: **possession-loss hazard**
 
 PRESS investigates a physics-based formulation of **ball-drive risk**, modelling the probability of losing possession through the relative movement and interception capabilities of defenders and the ball carrier.
 
-The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes. To the best of my knowledge, multinomial gradient-boosted trees had not previously been applied to pass selection, and xLoss is computed modularly as the hazard plus a residual-risk term.
+The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes. 
 
 A further component is the interpretation of possession-loss risk through **discrete-time survival analysis**. PRESS uses possession half-life to define interpretable difficulty bands and examines how hazard evolves throughout observed possessions.
 
