@@ -19,7 +19,7 @@ PRESS (Possession Risk Estimate from Spatio-temporal State) is an independent, p
 
 PRESS builds on the Markov decision process formulation and modular architecture of EPV models, combining physics-based models of passing and ball carrying with statistical models of player decisions and possession outcomes.
 
-The framework estimates two complementary quantities: **possession-loss hazard**, the probability of losing team possession during the next action, and **xLoss**, the probability that the current ball carrier's individual possession eventually ends in a loss.
+The framework estimates two complementary quantities: **possession-loss hazard**, the probability of losing team possession during the next action, and **xLoss**, the probability that the current ball carrier's individual possession eventually ends in a loss, following SkillCorner's definition.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -39,7 +39,7 @@ The framework estimates two complementary quantities: **possession-loss hazard**
 
 PRESS investigates a physics-based formulation of **ball-drive risk**, modelling the probability of losing possession through the relative movement and interception capabilities of defenders and the ball carrier.
 
-The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes.
+The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes. To the best of my knowledge, multinomial gradient-boosted trees had not previously been applied to pass selection, and xLoss is computed modularly as the hazard plus a residual-risk term.
 
 A further component is the interpretation of possession-loss risk through **discrete-time survival analysis**. PRESS uses possession half-life to define interpretable difficulty bands and examines how hazard evolves throughout observed possessions.
 
@@ -47,13 +47,15 @@ Individual components are evaluated through dedicated benchmarks, with compariso
 
 ## Applications
 
-Following recent research on pressure metrics, PRESS supports the retrospective characterization of player behaviour under defensive pressure. Risk trajectories allow the identification of recurring pressure patterns, contributing to player profiles that describe how individuals encounter and respond to defensive constraints.
+Following SkillCorner's pressure metrics, PRESS supports the retrospective characterization of player behaviour under defensive pressure. Risk trajectories allow the identification of recurring pressure patterns, contributing to player profiles that describe how individuals encounter and respond to defensive constraints.
 
 Comparing observed possession outcomes with model-based expectations across difficulty levels provides a complementary assessment of player performance. The framework also supports prospective analysis of possession vulnerability and tactical situations through xLoss.
 
 ## My contribution
 
 **Independent research and software development**
+
+I designed the modelling framework and validation protocols and developed the core software architecture.
 
 Physics-based modelling · Probabilistic modelling · Machine learning · Scientific software development · Football analytics
 
