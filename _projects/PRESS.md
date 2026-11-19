@@ -39,15 +39,19 @@ The framework estimates two complementary quantities: **possession-loss hazard**
 
 PRESS investigates a physics-based formulation of **ball-drive risk**, modelling the probability of losing possession through the relative movement and interception capabilities of defenders and the ball carrier.
 
-The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes. 
+The framework also develops a competing-risks formulation of **Ball Carrier Open Space (BCOS)**, providing a probabilistic representation of the space potentially accessible to the carrier under defensive opposition. Physics-derived features are incorporated into statistical models of action selection, pass destination choice, and possession outcomes.
+
+Pass destination is modelled with a multinomial gradient-boosted tree.
 
 A further component is the interpretation of possession-loss risk through **discrete-time survival analysis**. PRESS uses possession half-life to define interpretable difficulty bands and examines how hazard evolves throughout observed possessions.
+
+xLoss is computed modularly by composing the hazard with a residual-risk component, which estimates the probability that the individual possession eventually ends in a loss after a successful one-second carry.
 
 Individual components are evaluated through dedicated benchmarks, with comparisons to existing football analytics approaches whenever feasible.
 
 ## Applications
 
-Following SkillCorner's pressure metrics, PRESS supports the retrospective characterization of player behaviour under defensive pressure. Risk trajectories allow the identification of recurring pressure patterns, contributing to player profiles that describe how individuals encounter and respond to defensive constraints.
+Following SkillCorner's approach to pressure metrics, PRESS supports the retrospective characterization of player behaviour under defensive pressure. Risk trajectories allow the identification of recurring pressure patterns, contributing to player profiles that describe how individuals encounter and respond to defensive constraints.
 
 Comparing observed possession outcomes with model-based expectations across difficulty levels provides a complementary assessment of player performance. The framework also supports prospective analysis of possession vulnerability and tactical situations through xLoss.
 
